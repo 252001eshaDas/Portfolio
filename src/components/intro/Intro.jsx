@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Me from "../../img/My project(1).png"
+import Me from "../../img/dp.png"
 const intro = () => {
   return (
     <div className='i'>
