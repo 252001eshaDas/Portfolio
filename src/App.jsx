@@ -6,10 +6,14 @@ import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import Portfolio  from "./components/portfolio/Portfolio";
-
+import Menu from "./components/menu/Menu";
+// import "./app.scss"
+import { useState } from "react";
+import Topbar from "./components/topbar/Topbar";
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div
       style={{
@@ -17,12 +21,16 @@ const App = () => {
         color: darkMode && "white",
       }}
     >
+       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+     <div className="sections">
       <Toggle />
       <Intro />
       <About />
       <ProductList />
       <Portfolio/>
       <Contact />
+    </div>
     </div>
   );
 };

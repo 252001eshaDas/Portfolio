@@ -5,24 +5,12 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
-  }
-  
-  .p-browser {
-    height: 20px;
-    background-color: rgb(243, 242, 242);
     display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
+    position: relative;
+    
   }
   
-  .p-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: white;
-  }
+  
   
   .p-img {
     width: 100%;

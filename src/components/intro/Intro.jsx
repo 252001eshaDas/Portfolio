@@ -3,7 +3,7 @@ import "./intro.css"
 import Me from "../../img/dp.png"
 const intro = () => {
   return (
-    <div className='i'>
+    <div className='i'id='intro'>
         <div className="i-left">
             <div className="i-left-wrapper">
                 <h2 className='i-intro'>Hello my name is</h2>
@@ -18,7 +18,10 @@ const intro = () => {
                     </div>
                 </div>
                 <div className="i-desc">
-                    qwertyuioplkjhgfdazxcvbnm
+                Nomoskar...!! Myself Esha Das. I lives in West Bengal. 
+          I am an Web Developer as well as an Artist. If you want your personal website you can contact me.
+          You can buy crafts.You can contact me for paid Commission artworks, Price just starts with 
+          500 plus shipping charges. So hurry up and get your orders..!
                 </div>
             </div>
             <svg

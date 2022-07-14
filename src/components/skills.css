@@ -1,0 +1,26 @@
+.skills-container .skill-title {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  .skills-container .skill-bar {
+    display: flex;
+    align-items: center;
+  }
+  .skills-container .skill-bar .skill-progress {
+    width: 80%;
+  }
+  .skills-container .skill-bar .skill-progress .progress {
+    width: 80%;
+    height: 0.5rem;
+    background-color: red;
+    margin-left: 1rem;
+    background-color: #0381ff3f;
+    position: relative;
+  }
+  .skills-container .skill-bar .skill-progress .progress .inner-pregress {
+    position: absolute;
+    background-color: #59b256;
+    height: 80%;
+    bottom: 0;
+    left: 0;
+  }
