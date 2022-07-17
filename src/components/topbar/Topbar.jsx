@@ -15,7 +15,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         </div>
         <div className="right">
         <a href="#intro" className="logo">
-            Namastay
+            Nama-stay
           </a>
           <div className="itemContainer">
             <span>+917449849325</span>

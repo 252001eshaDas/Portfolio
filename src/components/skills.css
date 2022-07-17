@@ -1,6 +1,12 @@
+.skills-container{
+  height: 30%;
+}
 .skills-container .skill-title {
     font-size: 10px;
-    font-weight: 200;
+    font-weight: 100;
+  }
+  .skill-text{
+    font-size: 10px;
   }
   .skills-container .skill-bar {
     display: flex;

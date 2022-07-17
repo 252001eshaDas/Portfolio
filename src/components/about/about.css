@@ -49,7 +49,8 @@
   }
   
   .a-sub {
-    margin: 20px 0px;
+    margin: 5px 0px;
+    font-size: small;
   }
   
   .a-desc{
@@ -78,7 +79,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
-    row-gap: 3rem;
+    row-gap: 2rem;
     margin: 4rem 0;
     
     @media screen and (max-width: 480px){

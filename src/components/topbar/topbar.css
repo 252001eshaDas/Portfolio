@@ -1,7 +1,7 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: transparent;
+    background-color: #222;
     color: #3dd749;
     position: fixed;
     top: 0;
@@ -19,7 +19,7 @@
     align-items: center;
   }
   .topbar .wrapper .right .logo {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-decoration: none;
     color: inherit;
