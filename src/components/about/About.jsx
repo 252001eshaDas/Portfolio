@@ -17,10 +17,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
-        </p>
+        
         <p className="a-desc">
           Nomoskar...!! Myself Esha Das. I lives in West Bengal. 
           I am an Web Developer as well as an Artist. If you want your personal website you can contact me.

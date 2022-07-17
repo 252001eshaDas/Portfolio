@@ -1,5 +1,7 @@
 import React from 'react'
 import "../components/skills.css";
+import "../components/about/about.css"
+
 function SkillsSection({skill,progress,width}) {
     return (
         <div className="SkillsSection">

@@ -72,6 +72,20 @@
       color: #555;
       margin-bottom: 10px;
   }
+  .skillsContainer{
+    flex: 1;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 3rem;
+    margin: 4rem 0;
+    
+    @media screen and (max-width: 480px){
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+  }
+}
   
   @media screen and (max-width:480px) {
       .a{
@@ -95,17 +109,9 @@
       .a-right{
         padding: 20px;
       }
-      
       .skillsContainer{
-        flex: 1;
-        height: 50%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 4rem;
-        row-gap: 3rem;
-        margin: 4rem 0;
-        @media screen and (max-width: 50px){
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+      }
+      
   }

@@ -3,7 +3,8 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 
 const Contact = () => {
@@ -52,7 +53,7 @@ const Contact = () => {
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}}  type="text" placeholder="Name" name="user_name" />
             <input style={{backgroundColor: darkMode && "#333"}}  type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}}  type="text" placeholder="Email" name="user_email" />
+            <input style={{backgroundColor: darkMode && "#333"}}  type="email" placeholder="Email" name="user_email" />
             <textarea nrows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Thank you..."}
