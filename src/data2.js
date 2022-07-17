@@ -63,51 +63,40 @@ export const featuredPortfolio = [
       id: 1,
       title: "Clay Crafts",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1657016461072_3nVUnFfBM.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657036082938",
     },
     {
       id: 2,
       title: "Traditional",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1658076999810__Z_-ykwEi.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658077141877",
     },
     {
       id: 3,
-      title: "Customized Frames",
+      title: "Customized pankha",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1658076999862_Zq95FFSPn.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658077133867",
     },
     {
       id: 4,
-      title: "Customized Bookmarks",
+      title: "Customized pots",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1658076999839_9h2hB3XFl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1658077133116",
     },
   ];
   
   export const mobPortfolio = [
     {
       id: 1,
-      title: "Login system App",
+      title: "Skies",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1657016460965_qQP5EYvnm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657036080415",
     },
     {
       id: 2,
-      title: "Splash Screen UI Design",
+      title: "Flowers",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ik.imagekit.io/qjwof6w9fff/Drawings/1657034833824_ljGbnzsFZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657036053504",
     },
-    {
-      id: 3,
-      title: "E-commerce App Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Food Ordering Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+   
   ];
